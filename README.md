@@ -3,6 +3,13 @@
 Demo project having terraform as focus
 
 
+## Description
+
+**ELK** stack version: `v7.4.2`
+
+**EC2**
+
+
 ## Objectives
 
 Deploy multiple services at `AWS` using terraform.
