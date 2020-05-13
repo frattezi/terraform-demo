@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "elk" {
   ami           = "ami-085925f297f89fce1"
-  instance_type = "t2.micro"
-  security_groups = ["WebHosting"]
+  instance_type = "t3.medium"
+  security_groups = ["ELK"]
   key_name = "elk-test"
 }
